@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.bg {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.25)), url("../../media/hd-wallpaper-7496901.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(255,255,255,0.25);
+    position: fixed;
+    width: 100%;
+    height: 75px;
+}
+.nav-elements {
+    list-style: none;
+    float: right;
+    display: flex
+}
+.nav-elements li {
+    margin: 10;
+}
+.nav-elements li a {
+    text-decoration: none;
+    color: #131313
+}
+.nav-elements li a:hover {
+    text-decoration: underline;
+
+}
+main {
+    position: relative;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
