@@ -1,6 +1,7 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
+        <script src="./resources/js/script.js"></script>
         <link href="./resources/css/style.css" rel = "stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,20 +31,29 @@
                     <section class="projects">
                         <h3>Projects</h3>
                         <ul>
-                            <li>Reddit Client</li>
+                            <li>
+                                <button class="project-button" onClick="showContent('reddit-project')">Reddit Client</button>
+                                <article class="project-content" id="reddit-project" style="display: none">Test</article>
+                            </li>
                         </ul>
                     </section>
                     <section class="skills">
                         <h3>Skills</h3>
-                        <ul>
-                            <li>HTML, CSS, Javascript, React, Express, Node, Postgres</li>
+                        <ul class="skills-list">
+                            <li><img src="./media/html-logo.webp" title="HTML"/></li>
+                            <li><img src="./media/css-logo.png" title="CSS"/></li>
+                            <li><img src="./media/js-logo.png" title="JavaScript"/></li>
+                            <li><img src="./media/postgres-logo.png" title="Postgres"/></li>
+                            <li><img src="./media/expressjs_logo.png" title="Express"/></li>
+                            <li><img src="./media/react-logo.svg" title="React"/></li>
+                            <li><img src="./media/node-logo.png" title="Node"/></li>
                         </ul>
                     </section>
                     <section class="contact">
                         <h3>Contact</h3>
-                        <article class="email"><a href="mailto:amymartinm97@gmail.com">Email</a></article>
-                        <article class="linkedin"><a>LinkedIn</a></article>
-                        <article class="github"><a>GitHub</a></article>
+                        <a href="mailto:amymartinm97@gmail.com"><img src="./media/email-logo.png" title="Email"></a>
+                        <a><img src="./media/linkedin_black_logo_icon_147114.png" title="LinkedIn"/></a>
+                        <a href="https://github.com/amy-martin"><img src="./media/github-logo.png" title="Github"/></a>
                     </section>
                 </section> 
             </main>
