@@ -35,7 +35,7 @@ nav {
 }
 .nav-elements li a {
     text-decoration: none;
-    color: #131313
+    color: #525252
 }
 .nav-elements li a:hover {
     text-decoration: underline;
@@ -48,15 +48,24 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px; 
+    color: #525252
 }
-
+h2 {
+    font-size: 50px;
+    font-weight: 300;
+}
+h3 {
+    font-size : 30px;
+    font-weight: 300;
+}
 .content {
-    width: 100%;
+    
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
+p, ul {
+    font-size: 16px;
+}
